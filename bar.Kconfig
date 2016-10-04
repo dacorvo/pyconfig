@@ -1,0 +1,2 @@
+config BILIBOU
+	bool "Il est optionel"

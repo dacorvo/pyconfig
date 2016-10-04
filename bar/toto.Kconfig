@@ -1,0 +1,2 @@
+config BAR_IN_DIR
+	bool "BAR IN DIR"

@@ -1,0 +1,2 @@
+config FOO
+	bool "Foo"

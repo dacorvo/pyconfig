@@ -1,0 +1,39 @@
+menu "Super Menu"
+
+config TRUC
+	bool "Un truc"
+
+config MACHIN
+	bool "Un autre truc"
+	depends on TRUC
+
+config BIDULE
+	bool "Et encore un"
+	default y
+
+endmenu
+
+config TOTO
+	bool "toto"
+
+config TITI
+	bool "titi"
+	default y
+
+config STR
+	string "Une string"
+	default "foo"
+
+config STR1
+	string "Une autre string"
+
+menu "Un petit menu"
+
+config RIEN
+	bool "Avec rien dedans"
+
+endmenu
+
+source "foo.Kconfig"
+
+source "bar.Kconfig"

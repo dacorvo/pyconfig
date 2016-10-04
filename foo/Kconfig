@@ -1,0 +1,2 @@
+config FOO_IN_DIR
+	bool "FOO_IN_DIR"
